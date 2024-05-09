@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Title of the webpage -->
+    <title>SCP Foundation</title>
+    <!-- To link external css -->
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body onload="DisplayData()"> <!-- This sets up the body of the webpage and calls the DisplayData() function when the page loads -->
+    <!-- Navigation section -->
+    <nav>
+        <!-- Checkbox input for responsive menu toggle -->
+        <input type="checkbox" id="menu-toggle">
+        <!-- Label for menu toggle button -->
+        <label for="menu-toggle" class="menu-toggle-label">
+            <!-- Icon for menu toggle -->
+            <i class="fas fa-bars"></i>
+        </label>
+        <!-- SCP logo -->
+        <label class="site-logo">SCP Foundation</label>
+        <!-- Navigation links -->
+        <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="scp-002.html">SCP-002</a></li>
+            <li><a href="scp-003.html">SCP-003</a></li>
+            <li><a href="scp-004.html">SCP-004</a></li>
+            <li><a href="scp-005.html">SCP-005</a></li>
+            <li><a href="scp-006.html">SCP-006</a></li>
+        </ul>
+    </nav>
+    <div id="display"> <!-- This is a container for displaying data -->
+        
+    </div>
+
+    <!-- Linking external Javascript file-->
+    <script src="js/script.js"></script>
+</body>
+</html>
