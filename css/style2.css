@@ -1,0 +1,128 @@
+/* SCP pages specific styles */
+
+/* Main content section */
+main {
+    margin: 20px; /* To add margin around the main content */
+}
+
+/* Article container */
+article {
+    background-color: #f9f9f9; /* To set background color for the article */
+    padding: 20px; /* To add padding inside the article */
+    border-radius: 10px; /* To add rounded corners to the article */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /*To add a subtle shadow effect */
+}
+
+/* Header styles */
+article header h1 {
+    font-size: 24px; /* To set font size for the main heading */
+}
+
+article header h2 {
+    font-size: 18px; /* To set font size for the subheading */
+    margin-bottom: 10px; /* To add space below the subheading */
+}
+
+/* Figure styles */
+article figure {
+    margin: 20px 0; /* To add margin above and below the figure */
+}
+
+article figure img {
+    max-width: 100%; /* To make sure the image does not exceed its container */
+    height: auto; /* Ensures the image maintains its aspect ratio */
+    border-radius: 5px; /* To add rounded corners to the image */
+}
+
+/* Section styles */
+article section {
+    margin-bottom: 20px; /*To add space below each section */
+    background-color: #ffffff; /* To set a solid white background for sections */
+    border-radius: 5px; /* To add rounded corners to sections */
+    padding: 20px; /* To add padding inside sections */
+}
+
+article section h3 {
+    font-size: 20px; /* To set font size for section headings */
+    margin-bottom: 10px; /* To add space below section headings */
+}
+
+article section p {
+    font-size: 16px; /* To set font size for paragraphs */
+    line-height: 1.5; /* To set line height for paragraphs */
+}
+
+/* Cart layout */
+.cart {
+    display: flex; /* Using flexbox for cart layout */
+    flex-direction: column; /* Arranging cart content vertically on small screens */
+}
+
+/* Procedure text styles */
+.cart-text {
+    padding: 20px; /* To add padding inside the text section */
+}
+
+/* Image styles */
+.cart-image {
+    display: flex; /* Using flexbox for image section layout */
+    justify-content: center; /* To center image horizontally */
+}
+
+/* Procedure section styles */
+article section.procedure {
+    background-color: black; /* Making background color dark */
+    padding: 30px; /* To add padding for spacing */
+    border-radius: 10px; /* Rounded corners for the section */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+article section.procedure h3 {
+    color: white; /* Making text light color for headings */
+    font-size: 24px; /* Larger font size for headings */
+    margin-bottom: 20px; /* To add space below headings */
+}
+
+article section.procedure p {
+    color: white; /* Making text light color for paragraphs */
+    font-size: 16px; /* Normal font size for paragraphs */
+    line-height: 1.6; /* Improving line height for readability */
+}
+
+/* Body-text section styles */
+article section.body-text {
+    background-color: #3d3d3d; /* Making background color dark */
+    padding: 30px; /* To add padding for spacing */
+    border-radius: 10px; /* Rounded corners for the section */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+article section.body-text h3 {
+    color: white; /* Making text light color for headings */
+    font-size: 24px; /* Larger font size for headings */
+    margin-bottom: 20px; /* To add space below headings */
+}
+
+article section.body-text h4 {
+    color: red; /* Making text color red */
+}
+
+article section.body-text p {
+    color: white; /* Making text light color for paragraphs */
+    font-size: 16px; /* Normal font size for paragraphs */
+    line-height: 1.6; /* Improving line height for readability */
+}
+
+/* Cart text header styles */
+.cart-text header h1 {
+    text-align: center;
+    color: black;
+    font-size: 32px;
+}
+
+.cart-text header h2 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 17px;
+    color: red;
+}
